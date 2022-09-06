@@ -1,0 +1,227 @@
+:root {
+    --primary-color: #212121;
+    --link-color: #000;
+    --description-color: #757575;
+    --a-color: #2196F3;
+    --color: #fff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 14px;
+    color: var(--primary-color);
+}
+
+.pointer {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
+
+.pointer:hover, link:hover {
+    background-color: var(--a-color);
+    color: var(--color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--a-color);
+}
+
+
+.link {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--link-color);
+}
+
+.linkdown {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color);
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+
+.telephone, .email {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--description-color);
+}
+
+a {
+    color: #000; /*Колір звичайної посилання */
+    text-decoration: none; /*Прибираємо підкреслення у посилань */
+}
+
+a:hover {
+    color: var(--a-color); /* Колір посилання при наведенні на нього курсора миші */
+}
+
+li {
+    list-style: none
+}
+
+.list {
+    background-color: #2F303A;
+    color: var(--color);
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.contacts {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.adress {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--color);
+}
+
+.description {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-color);
+}
+
+.job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height:  1.875;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+.active {
+    color: var(--a-color);
+}
+
+.order {
+    background: var(--a-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--color);
+}
+
+.order:hover {
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--color);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.description-first {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+.text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.title-first {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
+
+.description-person {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
